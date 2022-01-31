@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Jama-1.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/javalibs/Jama-1.0.3.jar!/" />
+      <root url="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/javalibs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/javalibs" recursive="false" />
+  </library>
+</component>
