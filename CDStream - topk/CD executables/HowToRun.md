@@ -43,12 +43,3 @@ The parameters of the experiment in the paper were:
 |`tau`| 0.8|
 |`delta`| 0.05|
 |`k`| [100,200,300,400,500] |
-
-- algorithm 	= several runs with each of the available
-- data		= stocks
-- n 		= 1000
-- l_max 	= 1
-- r_max 	= 2
-- tau		= 0.8
-- delta 	= 0.05
-- k		= [100, 200, 300, 400, 500]
