@@ -2,7 +2,7 @@ The jar in this folder provide all necessary functionality to reproduce the expe
 
 The jar can be run as follows:
 
-`java -cp <name of jar> main <algorithm> <data_path> <arrival_times_path> <n> <l_max> <r_max> <tau> <delta> <batch_size>`
+`java -cp <name of jar> main <algorithm> <data_path> <arrival_times_path> <n> <l_max> <r_max> <tau> <delta>`
 
 
 ### Notes:
@@ -43,4 +43,3 @@ The parameters of the experiment in the paper were:
 |`r_max`| [2 3]|
 |`tau`| [0.6, 0.7, 0.8]|
 |`delta`| [-5, 0, 0.05, 0.10, 0.15]|
-|`batch_size`| [50, 100, 200, 400, 800, 1000, 2000, 4000, 8000, 16000] |
