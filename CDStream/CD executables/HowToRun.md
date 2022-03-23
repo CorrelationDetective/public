@@ -26,7 +26,6 @@ The jar can be run as follows:
 3. The `algorithm` parameter can take the following values:
 	- streaming (to run CDStream base)
 	- oneshot (to run CD)
-	- hybrid (to run CDHybrid, which includes adaptive switching between the above two
 
 4. `n` indicates the amount of vectors that should be used from the data
 5. `tau` indicates the correlation threshold
