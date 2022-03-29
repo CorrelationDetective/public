@@ -9,19 +9,21 @@ The jar can be run as follows:
 
  1. The data should be in CSV format, with a header row indicating the name of each time series. There should be no index column. E.g.:
 
-|**MSFT,AAPL,ASML,**...|
-|:--|
-|200,3000,500,...|
-|202,2950,550,...|
-|...|
+```
+MSFT,AAPL,ASML,...
+200,3000,500,...
+202,2950,550,...
+...
+```
 
 2. The arrival tives should be in rows of comma-separated integers, starting with the name of the vector it refers to. E.g.:
 
-|**MSFT**,1,6,7,8,...|
-|:--|
-|**AAPL**,2,5,7,8,...|
-|**ASML**,1,2,3,4,...|
-|...|
+```
+MSFT,1,6,7,8,...
+AAPL,2,5,7,8,...
+ASML,1,2,3,4,...
+...
+```
 
 3. The `algorithm` parameter can take the following values:
 	- streaming (to run CDStream base)
