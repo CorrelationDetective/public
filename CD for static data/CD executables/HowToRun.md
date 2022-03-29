@@ -15,11 +15,12 @@ Any of the jars can be run as follows:
 
 1. The data should be in CSV format, with a header row indicating the name of each time series. There should be no index column. E.g.:
 
-|**MSFT,AAPL,ASML,**...|
-|:--|
-|200,3000,500,...|
-|202,2950,550,...|
-|...|
+```
+MSFT,AAPL,ASML,...
+200,3000,500,...
+202,2950,550,...
+...
+```
 
 2. The `measure` parameter can take the values _'multipearson'_ or _'multipole'_
 3. `tau` indicates the starting correlation threshold, which is increased if at least top-k results are found
