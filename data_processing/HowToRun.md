@@ -6,7 +6,7 @@ Requirements:
 
 
 Stock:
-1. Download the raw price data from the source in the paper (Yahoo Finance)
+1. Download the raw price data from the github link referenced in the paper (Yahoo Finance)
 2. Change the input path in stock_preproc_phase1.py to path with your price data
 3. Change output paths in stock_preproc_phase1.py to your liking
 4. Run stock_preproc_phase1.py 
