@@ -26,7 +26,7 @@ Weather:
 1. Run Main.java
 
 FMRI:
-1. Download the pre-processed data at \url{https://openneuro.org/datasets/ds002837/versions/2.0.0}. We used file \path{sub-1_task-500daysofsummer_bold_blur_censor}, which  includes the recommended pre-processing for voxel-based analytics.
+1. Download the pre-processed data at https://openneuro.org/datasets/ds002837/versions/2.0.0. We used file sub-1_task-500daysofsummer_bold_blur_censor, which  includes the recommended pre-processing for voxel-based analytics.
 2. Change the paths in the jupyter notebook to the right input/output
 3. Run the jupyter notebook varying the down_res variable to the mean pooling kernel sizes described in the paper (standard is 4)
 
